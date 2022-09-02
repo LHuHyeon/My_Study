@@ -56,6 +56,10 @@ public class MouseTest : MonoBehaviour, IPointerClickHandler, IBeginDragHandler,
 - OnPointerClick() 메소드를 정의한다.
 - 마우스 커서 위치에 존재하는 객체가 해당 메소드를 가지고 있을 경우 실행할 수 있다.
 
+`[IPointerEnterHandler, IPointerExitHandler] Interface`
+- OnPointerEnter(), OnPointerExit() 메소드를 정의한다.
+- 해당 메소드를 가진 객체에 마우스 커서를 갔다 놓거나, 빠져 나올 때 실행되는 메소드이다.
+
 `Mouse 드래그&드롭`
 - 인벤토리에서 아이템을 옮겨야할 경우 아래와 같은 메소드를 정의하면 된다.
 - OnBeginDrag() -> OnDrag() -> OnEndDrag()
