@@ -1,2 +1,3 @@
-# My_TIL
-Today I Learned : '오늘 내가 배운 것'
+# My_Study
+
+공부한 내용을 복습하는 곳!
